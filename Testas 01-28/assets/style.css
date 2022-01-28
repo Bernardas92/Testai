@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,700;0,900;1,500;1,700&display=swap');
+
+body { 
+    background-color:rgb(199, 247, 255) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+width: 100%;
+margin: 100px auto 0;
+height: 420px;
+width: 570px;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 19px 32px -9px rgba(0, 0, 0, 0.43);
+}
+
+#container h2 {
+    font-weight: 38px;
+    padding-left: 52px;
+    padding-top: 34px;
+    color:rgb(33, 33, 141);
+}
+
+#container .content {
+    display: flex;
+    justify-content: center;
+    float: left;
+    padding-left: 52px;
+}
+#container .content form input {
+    padding: 13px 60px 10px 13px;
+    margin: 5px 5px;
+    border: none;
+    background-color: rgb(194, 251, 255);
+    border-radius: 5px;
+    color: blue;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#container .content .adresas {
+    padding: 13px 275px 10px 13px;
+    margin: 5px 5px;
+    border: none;
+    background-color: rgb(138, 241, 248);
+    border-radius: 5px;
+}
+
+#container .content .sub-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(17, 113, 223);
+}
+
+#container .content textarea {
+    background-color:rgb(138, 225, 252);
+    width: 410px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 5px;
+    resize: none;
+}
+
+#container .footer {
+    display: flex;
+    align-items: flex-end;
+    color: rgb(67, 179, 179);
+}
