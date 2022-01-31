@@ -1,3 +1,3 @@
 # Testai
-**Bit**
-Javascript 2022-01-03
+**BIT**
+*Javascript* 2022-01-03
