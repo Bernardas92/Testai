@@ -28,8 +28,9 @@ box-shadow: 0px 19px 32px -9px rgba(0, 0, 0, 0.43);
 }
 
 #container .content form input {
-    text-align: center;
-    margin: 25px 5px;
+    float: left;
+    padding: 13px 50px 10px 13px;
+    margin: 10px 5px;
     border: none;
     background-color: rgb(194, 251, 255);
     border-radius: 5px;
@@ -39,11 +40,12 @@ box-shadow: 0px 19px 32px -9px rgba(0, 0, 0, 0.43);
 }
 
 #container .content .adresas {
-    padding: 13px 275px 10px 13px;
+    padding: 13px 260px 10px 13px;
     margin: 5px 5px;
     border: none;
     background-color: rgb(138, 241, 248);
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 #container .content .sub-button{
