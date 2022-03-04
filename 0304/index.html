@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="funkcija()">spausti</button>
+    <h2 id="demo_1"></h2>
+    <h2 id="demo_2"></h2>
+
+    <button onclick="random()">spausti</button>
+    <h3 id="array"></h3>
+    
+   <script>
+function rand(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+function funkcija() {
+let x = rand (1, 6);
+let y = rand (1, 6)
+document.getElementById("demo_1").innerText = x;
+document.getElementById("demo_2").innerText = y;
+document.getElementById("demo_1").style.color = 'red';
+document.getElementById("demo_2").style.color = 'red';
+}
+
+let masyvas = [];
+let e = rand (1, 10)
+
+function random(){
+document.getElementById("array").innerText = e;
+let masyvas = e;
+console.log(masyvas);
+}
+
+
+ 
+</script>
+</body>
+</html>
